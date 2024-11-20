@@ -1,7 +1,6 @@
 import Image from "next/image";
 import "../about/globals.css"
 import moizabout from "../../../public/moizabout.jpg"
-import Skill from "../component/skill";
 
 export default function Aboutpage (){
     return(
@@ -19,7 +18,6 @@ export default function Aboutpage (){
                 </div>
                 </div>
             </div>
-            <Skill/>
         </main>
     )
 }

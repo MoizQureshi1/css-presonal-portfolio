@@ -1,5 +1,6 @@
 import Image from "next/image";
 import moiz from "../../public/moiz.jpg"
+import Skill from "./component/skill";
 
 export default function Hero (){
 
@@ -16,6 +17,7 @@ export default function Hero (){
           </div>
         </div>
       </div>
+      <Skill/>
     </main>
   )
 }
